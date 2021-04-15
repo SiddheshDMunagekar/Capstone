@@ -51,7 +51,7 @@ def run_image_classifer_app():
 
     #model_path='C:\\Users\\siddh\\PycharmProjects\\pythonProject3\\Capstone\\my_model'
 
-        saved_model = tf.keras.models.load_model('my_model')
+        saved_model = tf.keras.models.load_model('my_model/my_model')
 
     ############    Model Prediction based on saved model in the folder ##########################################################
 
