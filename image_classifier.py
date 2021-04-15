@@ -10,7 +10,7 @@ from tempfile import NamedTemporaryFile
 from PIL import Image
 
 
-animals=Image.open('animal_classifier.png')
+animals=Image.open('animal_classifier.jpeg')
 
 
 st.image(animals,use_column_width=True)
