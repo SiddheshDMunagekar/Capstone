@@ -25,7 +25,7 @@ def run_image_classifer_app():
     image_height = 148
     batch_size = 16
     epochs = 10
-    buffer= st.file_uploader("Upload your Image here Image here .jpg")
+    buffer= st.file_uploader("Upload your Image here  .jpg")
     temp_file = NamedTemporaryFile(delete=False)
     if buffer is not None:
         temp_file.write(buffer.getvalue())
